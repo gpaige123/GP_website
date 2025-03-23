@@ -564,6 +564,15 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+.about__photo {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+
+
 /* --------------------------------------- */
 /* ----- Contact ----- */
 /* --------------------------------------- */
