@@ -512,13 +512,20 @@ body:not(.user-is-tabbing) a:focus {
 
 .client__logos {
     display: flex;
-    justify-content: space-between;
-    filter: invert(100%) grayscale(100%) opacity(.8);
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .client__logo {
-    height: 6.5rem;
-    max-width: 18rem;
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.client__logo:hover {
+    transform: scale(1.05);
 }
 
 @media(max-width: 1240px) {
